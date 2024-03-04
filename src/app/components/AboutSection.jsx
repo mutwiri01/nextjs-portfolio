@@ -5,26 +5,26 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
+    title: "Why Choose Us",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Extensive Product Range</li>
+        <li>Quality Assurance</li>
+        <li>Exceptional Service</li>
+        <li>Exceptional Service</li>
+        <li>Reliable Customer Support</li>
+        <li>Commitment to Sustainability</li>
       </ul>
     ),
   },
   {
-    title: "Education",
+    title: "Mission Statement",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>our mission is to empower our customers with high-quality electrical, mechanical, and hardware solutions that drive innovation, efficiency, and success</li>
+        <li>We are committed to delivering exceptional value, unparalleled service, and sustainable solutions that make a positive impact on our customers, employees, and communities</li>
       </ul>
     ),
   },
@@ -33,8 +33,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li> Over the years, we have achieved significant milestones, including expanding our product offerings, opening multiple locations nationwide, and earning recognition for our commitment to excellence and customer satisfaction.</li>
+        
       </ul>
     ),
   },
@@ -53,16 +53,13 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/ab.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">About Us</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          EverSupplies Inc. specializes in providing a comprehensive range of electrical items, mechanical items,
+           and hardware materials to businesses and individuals. With a commitment to quality, affordability, 
+           and customer satisfaction, we aim to be your trusted partner for all your supply needs
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -70,21 +67,21 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Why Choose Us{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Mission Statement{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
-              Certifications{" "}
+              Milestones{" "}
             </TabButton>
           </div>
           <div className="mt-8">

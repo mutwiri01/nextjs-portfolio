@@ -7,55 +7,55 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    title: "Product Sourcing and Procurement:",
+    description: "We offer a diverse selection of electrical components, mechanical parts, and hardware materials sourced from reputable manufacturers and suppliers",
+    image: "/images/projects/101.jpg",
+    tag: ["All", "Technical"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    title: "Supply Chain Management:",
+    description: "Our streamlined supply chain ensures prompt delivery of products to customers, minimizing lead times and optimizing inventory management",
+    image: "/images/projects/102.jpg",
+    tag: ["All", "Technical"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    title: "Safety Inspections and Compliance",
+    description: " We conduct thorough safety inspections to ensure that electrical installations, mechanical equipment, and hardware fixtures comply with industry regulations and standards",
+    image: "/images/projects/103.jpg",
+    tag: ["All", "Technical"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    title: "Project Management",
+    description: "Comprehensive Planning: We provide end-to-end project management services, from initial planning and design to execution and completion.Resource Coordination: Our project managers coordinate resources, schedules, and budgets to ensure that projects are delivered on time and within budget.Risk Management: We identify and mitigate potential risks and challenges to minimize disruptions and ensure successful project outcomes",
+    image: "/images/projects/104.jpg",
+    tag: ["Project"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    title: "Installation Services",
+    description: "Our experienced technicians provide professional installation services for electrical systems, mechanical equipment, and hardware fixtures",
+    image: "/images/projects/105.jpg",
+    tag: ["All", "Technical"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    title: "Maintenance and Repair Services",
+    description: "We offer scheduled maintenance programs to help customers maintain the performance and reliability of their electrical, mechanical, and hardware systems.",
+    image: "/images/projects/106.jpg",
+    tag: ["All", "Technical"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -82,7 +82,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        Our Services
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Technical"
+          isSelected={tag === "Project Management"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Project"
+          isSelected={tag === "Project Management"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
