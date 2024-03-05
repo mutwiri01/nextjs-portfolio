@@ -10,7 +10,7 @@ const projectsData = [
     title: "Product Sourcing and Procurement:",
     description: "We offer a diverse selection of electrical components, mechanical parts, and hardware materials sourced from reputable manufacturers and suppliers",
     image: "/images/projects/101.jpg",
-    tag: ["All", "Technical"],
+    tag: ["All"],
     gitUrl: "/",
     previewUrl: "/",
   },
