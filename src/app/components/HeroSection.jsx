@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome to EverSupplies Inc. - Your Reliable Source for Electrical, Mechanical, and Hardware Supplies!.
+          Welcome to Aiva. - Your Reliable Source for Electrical, Mechanical, and Hardware Supplies!.
           </p>
           <div>
             <Link

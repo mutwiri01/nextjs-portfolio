@@ -57,7 +57,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Us</h2>
           <p className="text-base lg:text-lg">
-          EverSupplies Inc. specializes in providing a comprehensive range of electrical items, mechanical items,
+          Aiva. specializes in providing a comprehensive range of electrical items, mechanical items,
            and hardware materials to businesses and individuals. With a commitment to quality, affordability, 
            and customer satisfaction, we aim to be your trusted partner for all your supply needs
           </p>
