@@ -53,6 +53,9 @@ const EmailSection = () => {
           {" "}
           Got a question about our electrical, mechanical, or hardware supplies? Need assistance with your order or project? We are here to help! Feel free to reach out to us via phone, email, or the contact form below. Our knowledgeable team is standing by to provide expert guidance and support for all your needs.
         </p>
+        <div>
+          call us on +25471230000000000000
+        </div>
       </div>
       <div>
         {emailSubmitted ? (
