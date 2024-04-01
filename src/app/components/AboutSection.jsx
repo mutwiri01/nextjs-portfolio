@@ -51,11 +51,11 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-black" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/ab.jpg" width={500} height={500} />
+        <Image src="/images/a3.jpg" width={500} height={500} alt='' />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Us</h2>
+          <h2 className="text-4xl font-bold text-black mb-4">About Us</h2>
           <p className="text-base lg:text-lg">
           Aiva. specializes in providing a comprehensive range of electrical items, mechanical items,
            and hardware materials to businesses and individuals. With a commitment to quality, affordability, 

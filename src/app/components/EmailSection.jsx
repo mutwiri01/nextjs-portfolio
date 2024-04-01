@@ -49,7 +49,7 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
+        <p className="text-[rgb(17,17,17)] mb-4 max-w-md">
           {" "}
           Got a question about our electrical, mechanical, or hardware supplies? Need assistance with your order or project? We are here to help! Feel free to reach out to us via phone, email, or the contact form below. Our knowledgeable team is standing by to provide expert guidance and support for all your needs.
         </p>
@@ -67,7 +67,7 @@ const EmailSection = () => {
             <div className="mb-6">
               <label
                 htmlFor="email"
-                className="text-white block mb-2 text-sm font-medium"
+                className="text-black block mb-2 text-sm font-medium"
               >
                 Your email
               </label>
@@ -83,7 +83,7 @@ const EmailSection = () => {
             <div className="mb-6">
               <label
                 htmlFor="subject"
-                className="text-white block text-sm mb-2 font-medium"
+                className="text-black block text-sm mb-2 font-medium"
               >
                 Subject
               </label>
@@ -99,7 +99,7 @@ const EmailSection = () => {
             <div className="mb-6">
               <label
                 htmlFor="message"
-                className="text-white block text-sm mb-2 font-medium"
+                className="text-black block text-sm mb-2 font-medium"
               >
                 Message
               </label>
